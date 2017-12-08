@@ -28,3 +28,5 @@ Route::post('service/register', 'Service\MemberController@register');
 Route::group(['as'=>'user::'],function(){
    Route::post('/register','userController@register');
 }); */
+
+Route::get('/indexi', 'View\MemberController@indexi');
